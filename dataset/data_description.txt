@@ -20,7 +20,7 @@ MSSubClass: Identifies the type of dwelling involved in the sale.
 MSZoning: Identifies the general zoning classification of the sale.
 		
        A	Agriculture
-       C	Commercial
+       C (all)	Commercial
        FV	Floating Village Residential
        I	Industrial
        RH	Residential High Density
@@ -92,7 +92,7 @@ Neighborhood: Physical locations within Ames city limits
        IDOTRR	Iowa DOT and Rail Road
        MeadowV	Meadow Village
        Mitchel	Mitchell
-       Names	North Ames
+       NAmes	North Ames
        NoRidge	Northridge
        NPkVill	Northpark Villa
        NridgHt	Northridge Heights
@@ -133,10 +133,10 @@ Condition2: Proximity to various conditions (if more than one is present)
 BldgType: Type of dwelling
 		
        1Fam	Single-family Detached	
-       2FmCon	Two-family Conversion; originally built as one-family dwelling
-       Duplx	Duplex
+       2fmCon	Two-family Conversion; originally built as one-family dwelling
+       Duplex	Duplex
        TwnhsE	Townhouse End Unit
-       TwnhsI	Townhouse Inside Unit
+       Twnhs	Townhouse Inside Unit
 	
 HouseStyle: Style of dwelling
 	
@@ -223,10 +223,10 @@ Exterior2nd: Exterior covering on house (if more than one material)
 
        AsbShng	Asbestos Shingles
        AsphShn	Asphalt Shingles
-       BrkComm	Brick Common
+       Brk Cmn	Brick Common
        BrkFace	Brick Face
        CBlock	Cinder Block
-       CemntBd	Cement Board
+       CmentBd	Cement Board
        HdBoard	Hard Board
        ImStucc	Imitation Stucco
        MetalSd	Metal Siding
@@ -237,7 +237,7 @@ Exterior2nd: Exterior covering on house (if more than one material)
        Stucco	Stucco
        VinylSd	Vinyl Siding
        Wd Sdng	Wood Siding
-       WdShing	Wood Shingles
+       Wd Shng	Wood Shingles
 	
 MasVnrType: Masonry veneer type
 
@@ -502,7 +502,7 @@ YrSold: Year Sold (YYYY)
 
 SaleType: Type of sale
 		
-       WD 	Warranty Deed - Conventional
+       WD	Warranty Deed - Conventional
        CWD	Warranty Deed - Cash
        VWD	Warranty Deed - VA Loan
        New	Home just constructed and sold
